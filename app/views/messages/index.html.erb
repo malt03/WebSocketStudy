@@ -1,0 +1,10 @@
+<button type="button" onclick="connect();">Connect</button>
+<button type="button" onclick="hangUp();">Hang Up</button>
+<br />
+<div>
+  <video id="local-video" autoplay style="width: 240px; height: 180px; border: 1px solid black;"></video>
+  <video id="remote-video" autoplay style="width: 240px; height: 180px; border: 1px solid black;"></video>
+</div>
+
+<%= label_tag(:id, 'id:') %>
+<%= text_field_tag(:id) %>
